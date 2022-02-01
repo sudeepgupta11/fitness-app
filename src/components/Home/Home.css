@@ -1,0 +1,45 @@
+.homeHeader {
+  font-size: 5vmin;
+  margin-top: 5vmin;
+  font-weight: 700;
+  margin-bottom: 2vmin;
+  color: #6620bd;
+  text-align: center;
+}
+
+.homeHeaderDescription {
+  color: #5e5c61;
+  font-size: 3vmin;
+  line-height: 2vmax;
+  text-align: justify;
+}
+
+.homePageButton {
+  display: inline-block;
+  font-size: 3vmin;
+  color: #9b68d9;
+  padding: 2.5vmin 3vmin;
+  border: 1px solid #9b68d9;
+  border-radius: 30px;
+  position: relative;
+  background-color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.homePageButton:hover {
+  background-color: #9b68d9;
+  color: #fff;
+  text-shadow: none;
+  border: 0;
+  -webkit-box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.21);
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.21);
+}
+
+.homePageImageDiv {
+  height: 60vmin;
+}
+
+.homePageImage {
+  height: 50vmin;
+}

@@ -1,0 +1,21 @@
+.aboutUsImage {
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 50%;
+}
+.aboutUsLeftSide {
+  height: 80vmin;
+}
+#socialMediaDiv {
+  margin-right: 5vmin;
+}
+.socialMediaIcons {
+  font-size: 4vmin;
+  background: #2e113b;
+  height: 6vmin;
+  width: 6vmin !important;
+
+  padding: 2vmin;
+  border-radius: 50%;
+  color: #fff;
+}

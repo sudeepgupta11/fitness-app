@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.logoImg {
+  width: 4vmax;
+  height: 9vmin;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Inter";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttons:hover {
+  color: #fff !important;
+  background: #9b68d9 !important;
+  border-color: #9b68d9 !important;
+}
+.links {
+  text-decoration: none !important;
+}
+.buttons {
+  color: #9b68d9 !important;
+  font-size: 2.5vmin !important;
+  padding-top: 1.5vmin !important;
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.centerElement {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.notFoundImage {
+  height: 50vmin;
+  width: 70vmin;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notFoundDiv {
+  height: 80vh;
 }
